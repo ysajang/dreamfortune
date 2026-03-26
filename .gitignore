@@ -1,0 +1,38 @@
+# dreamfortune/.gitignore
+
+# Dependencies
+frontend/node_modules/
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+backend/.env
+frontend/.env.local
+
+# Build
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+mariadb_data/
+
+# Generated
+backend/app/static/cards/*
+!backend/app/static/cards/.gitkeep
+public/sw.js
+public/sw.js.map
+
+# Firebase
+firebase-credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
